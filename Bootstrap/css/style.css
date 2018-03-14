@@ -1,0 +1,270 @@
+.printer-head-even {
+	margin-top:25px
+}
+
+.row > p {
+	font-size:11px
+}
+
+.error {
+    color:red;
+    font-weight: bold;
+}
+.valid {
+    color:green;
+}
+.HomepageBackground {
+     margin: 0;
+    background: url('../image/banner_2	.jpg');
+	/* background-color : #5c80a2; */
+     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height:760px;
+    height: 100%;
+}
+
+
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+#loader .loading{
+    display: block;
+}
+
+.HundreadPercentWidth{
+    width:100%;
+}
+
+.form-actions{
+	text-align:center;
+}
+.customButton{
+	width:160px
+}
+#errorDisplay {
+    text-align: center;
+}
+
+/* Printer CSS */
+.logo img {
+    width: 200px;
+}
+.printDetailsShow ,.EBPrintTD{
+	font-size:12px
+}
+.EBPrintLiInstruction{
+	font-size:11px
+}
+
+.panel .table td, .panel .table th,
+.panel table.table.table-condensed {
+    border: 2px solid #337ab7;
+    margin-bottom: 5px;
+}
+
+body .container .panel-border-EB{
+	border: 2px solid #337ab7;
+	 margin-bottom: 10px;
+}
+
+.panel .panel-body {
+    padding: 10px;
+}
+.Change-instructions h6 {
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.lineseperator {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.fieldlabeladjustment{
+	margin: -6px;
+	color: #555555;
+	font-weight: bold;
+	/*margin-left: 5px;
+	style="margin-right: -10px" */
+}
+
+.radioadjustments{
+	color: #555555; 
+	font-weight: bold;
+}
+
+.makebold{
+	color: #000;
+	font-weight: bold;
+}
+
+.makeboldred{
+	color: red;
+	font-weight: bold;
+}
+
+
+.Logo-Login {
+	width:130px;
+	margin:0 auto
+}
+
+
+.Logo-Panel-Header {
+	width: 40px;
+	
+}
+.Logo-Panel-Header-Align {
+	margin-left: -11px;
+	}	
+
+.Text-Panel-Header {
+	    font-size: 17px;
+	}
+
+.Logo-Fields {
+	width: 14px;
+	
+}
+
+            .ad {
+              position: absolute;
+              bottom: 70px;
+              right: 48px;
+              z-index: 992;
+              background-color:#f3f3f3;
+              position: fixed;
+              width: 155px;
+              padding:1px;
+            }
+            
+            .ad-btn-hide {
+              position: absolute;
+              top: -10px;
+              left: -12px;
+              background: #fefefe;
+              background: rgba(240,240,240,0.9);
+              border: 0;
+              border-radius: 26px;
+              cursor: pointer;
+              padding: 2px;
+              height: 25px;
+              width: 25px;
+              font-size: 14px;
+              vertical-align:top;
+              outline: 0;
+            }
+            
+            .surgeforth-img {
+              float:left;
+              padding: 10px;
+            }
+            
+            .surgeforth-text {
+              color: #888;
+              display: inline-block;
+              font-family: Verdana;
+              font-size: 11px;
+              font-weight: 400;
+              height: 60px;
+              margin-left: 9px;
+              width: 142px;
+              padding-top: 10px;
+            }
+            
+            .surgeforth-text:hover {
+              color: #666;
+            }
+            
+            .surgeforth-poweredby {
+              color: #6A6A6A;
+              float: left;
+              font-family: Verdana;
+              font-size: 11px;
+              font-weight: 400;
+              margin-left: 10px;
+              margin-top: 10px;
+              text-align: center;
+            }
+        
+/* blink a text */
+
+ .blinkatext {   
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/* blink a text */
+
+
+
+#resetOppAll {
+    float: right;
+    margin-top: -33px;
+}
+
+			/* Start by setting display:none to make this hidden.
+	   Then we position it in relation to the viewport window
+	   with position:fixed. Width, height, top and left speak
+	   speak for themselves. Background we set to 80% white with
+	   our animation centered, and no-repeating */
+	.modal_loader{
+	    display:    none;
+	    position:   fixed;
+	    z-index:    1000;
+	    top:        0;
+	    left:       0;
+	    height:     100%;
+	    width:      100%;
+	    background: rgba( 255, 255, 255, .8 ) 
+	                url('../image/loader1.gif')
+	                50% 50% 
+	                no-repeat;
+	}
+	
+	
+/* modal data css */
+.modal_data {
+margin: 70px 127px 10px;	
+}
+	
+/* animate ajax */ 	
+.form-control-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+/* make display none */
+.make_disp_none {
+	display:none;
+}	
+	

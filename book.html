@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<?php 
+ 
+ error_reporting(E_ERROR);
+ include 'DBConnection.php';
+ $new_connect = new ICanDbConnection;
+
+$source_no=rand(1,5);
+
+if ($source_no==1)
+{
+	$source="T.Nagar";
+}
+else if($source_no==2)
+{
+	$source="Pallavaram";
+}
+else if($source_no==3)
+{
+	$source="Porur";
+}	
+else if($source_no==4)
+{
+	$source="Adayar";
+}	
+else if($source_no==5)
+{
+	$source="Teynampet";
+}
+
+?>
+
+<head>
+<title>BOOK</title>
+</head> 
+<body>
+    <center>
+		<p class="hype4">
+        BOOK YOUR RIDE
+        </p>
+        <p class="hype5">
+
+<link rel="stylesheet" type="text/css" href="Bootstrap\css\bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="Bootstrap\css\book.css">
+
+
+		FROM ADDRESS:&nbsp <input type="text" id="from" name = "from" placeholder="Enter From Address" value=echo $source><br /><br />	
+        TO ADDRESS:&nbsp <input type="text" id="to" name ="to" placeholder="Enter To Address" value=""><br /><br />
+		<div class="dropdown">
+		<font color="white">CHOOSE A CAB:&nbsp;</font>
+		<select id="cab" name="cab" style="width: 150px">
+                        <option value="micro"><font color="black">Micro</font></option>
+                        <option value="mini"><font color="black">Mini</font></option>
+                        <option value="pp"><font color="black">Prime Play</font></option>
+                        <option value="pse"><font color="black">Prime Sedan</font></option>
+                        <option value="psu"><font color="black">Prime SUV</font></option>
+                        <option value="lux"><font color="black">LUX</font></option>
+                    </select><br /><br /></div>
+        </br></br></br></br></br></br></br></br></br></br></br>
+		<form action="fair_estimator.html">
+		<input type="submit" id="submit" value="SUBMIT">
+		</form>
+		</p><br/><br/>
+	</center>
+</body>
+</html>
+
